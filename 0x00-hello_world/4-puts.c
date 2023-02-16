@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- *This is my first attempt at creating comments in C
- *This is a Betty Style comment structure
- * Programming is like building a multilingual puzzle, followed by a new line.
+ * main - the function to handle the basic program
+ *
+ * Description: output a string of characters
+ *
+ * Return: returns zero if program is without errors
  */
 
 int main(void)
