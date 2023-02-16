@@ -3,9 +3,9 @@
 /**
  * main - to handle the program
  *
- * description: handle a basic string using printf
+ * Description: handle a basic string using printf
  *
- * return: returns zero if program successful
+ * Return: returns zero if program successful
  */
 
 int main(void)
