@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	int n,even,five;
+	int n,five;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -23,17 +23,13 @@ int main(void)
 		printf("Last digit of %i is %i and is greater than 5\n", n, five);
 	}
 	
-
-	even = n % 2;
-	else if (even == 0)
+	else if (five == 0)
 	{
-		printf("Last digit of %i is %i and is 0\n", n, even);
+		printf("Last digit of %i is %i and is 0\n", n, five);
 	}
 
-	
-	last = n % 6;
-	else if (last < 6 && last != 0)
-		printf("Last digit of %i is %i and 6 and not 0\n", n, even);
+	else if (five == 6 && last != 0)
+		printf("Last digit of %i is %i and 6 and not 0\n", n, five);
 
 
 	return (0);
