@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - Mother of all functions
+/**
+ * main - mother of all functions
  *
- * Description: using % with if statements
+ * Description: basic use of % with if statements
  *
- * Return: Always a 0 if successfull
+ * Return: Always 0 if successful
  */
 
 int main(void)
