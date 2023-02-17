@@ -7,7 +7,7 @@
  *
  * Description: using % with if statements
  *
- * Return: Always a zero if successfull
+ * Return: Always a 0 if successfull
  */
 
 int main(void)
