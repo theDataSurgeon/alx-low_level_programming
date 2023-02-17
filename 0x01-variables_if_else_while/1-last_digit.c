@@ -12,7 +12,8 @@
 
 int main(void)
 {
-	int n,x;
+	int n; /*declaring a variable*/
+	int x;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
