@@ -17,7 +17,8 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/* your code goes there */
-	five = n % 5;
+
+	five = n % 5;/*check modulo*/
 	if (five > 1)
 	{
 		printf("Last digit of %i is %i and is greater than 5\n", n, five);
