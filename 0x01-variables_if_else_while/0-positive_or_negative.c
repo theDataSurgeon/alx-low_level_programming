@@ -6,7 +6,7 @@
 /**
  * main - This fuction behind all functions
  *
- * Description: Output value of n's satus. That is if n is zero, positive or negative
+ * Description: Output status value of n
  *
  * Return: Always return zero if successful
 */
