@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - The main function
  *
- * Description: print all aplhabet letters
+ * Description: Output all aplhabet letters
  *
  * Return: Always 0 if successful
 */
@@ -17,7 +17,7 @@ int main(void)
 		putchar(ch);
 		++ch;
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
