@@ -2,13 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
+/*
  * main - mother of all functions
  *
- * Description: basic comparisms
+ * Description: using % with if statements
  *
- * Return: Always 0 if successful
- */
+ * Return: Always a zero if successfull
+ * */
+
 int main(void)
 {
 	int n;
