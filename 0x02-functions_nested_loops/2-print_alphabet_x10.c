@@ -3,6 +3,8 @@
 /**
  * print_alphabet_x10 - Prints all alphabets 
  *                      10 times in lowercase.
+ *
+ * Description: strange stuff :)
  */
 void print_alphabet_x10(void)
 {
