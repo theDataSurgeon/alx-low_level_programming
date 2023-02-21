@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Prints all alphabets 
- *                      10 times in lowercase.
- *
- * Description: strange stuff :)
+ * print_alphabet_x10 - Print stuff 10 times :)
  */
+
 void print_alphabet_x10(void)
 {
 	int counter = 0;
