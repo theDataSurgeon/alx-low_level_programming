@@ -1,14 +1,35 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
+ * main - parent function
  *
- * @c: The character to print
+ * Description: Prints the sum of even-valued
+ *		Fibonacci sequence not exceed
+ *		4million
  *
- * Return: On success 1.
- *         On error, -1 is returned, and errno is set appropriately.
- */
-int _putchar(char c)
+ * Return: Always 0 (Success)
+*/
+
+int main(void)
 {
-	return (write(1, &c, 1));
+	unsigned long fib1 = 0, fib2 = 1, sum;
+	float total_sum;
+
+	/*my code goes here*/
+	while (1)
+	{
+		sum = fib1 + fib2;
+
+		if (sum > 4000000)
+			break;
+
+		if ((sum % 2) == 0)
+			total_sum += sum;
+
+		fib1 = fib2;
+		fib2 = sum;
+	}
+	printf("%.0f\n", total_sum);
+
+	return (0);
 }
