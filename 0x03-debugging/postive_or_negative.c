@@ -1,30 +1,17 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
-
 /**
- * main - This fuction behind all functions
+ * postive_or_negative - checks if num is pos or negative"
  *
- * Description: Output status value of n
- *
- * Return: Always return zero if successful
-*/
+ * @i: accept integer to tested
+ */
 
-int main(void)
+void positive_or_negative(int i)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
-	/*this is mmy code*/
-	if (n > 0)
-		printf("%i is positive\n", n);
-	else if (n == 0)
-		printf("%i is zero\n", n);
-	else
-		printf("%i is negative\n", n);
-
-	return (0);
+       if (i > 0)
+	       printf("%i is postive\n", i);
+       else if (i == 0)
+	       printf("%i is zero\n", i);
+       else
+	       printf("%i is negative\n", i);
 }
