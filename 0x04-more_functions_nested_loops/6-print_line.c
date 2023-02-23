@@ -4,20 +4,19 @@
  * print_line - print a straight line
  *
  * @n: is the number of times the _ character
- *     should be printed
+ *     should be displayed
 */
 
 void print_line(int n)
 {
-	int d;
+	int line;
 
 	if (n <= 0)
 		_putchar('\n');
 	else
 	{
-		for (d = 1; d <= n; d)
+		for (line = 1; line <= n; line++)
 			_putchar('_');
 		_putchar('\n');
 	}
 }
-
