@@ -3,7 +3,7 @@
 /**
  * print_diagonal - displays a diagonal line
  *
- * @n: is the number of times \ should be displayed
+ * @n: is the number of times backwoad slash should be displayed
 */
 
 void print_diagonal(int n)
@@ -18,7 +18,7 @@ void print_diagonal(int n)
 		{
 			for (col = 1; col <= row-1; col++)
 				_putchar(' ');
-			_putchar('\'');
+			_putchar(92); /*ASCII value of backward slash*/
 			_putchar('\n');
 		}
 	}
