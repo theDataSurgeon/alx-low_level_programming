@@ -9,16 +9,16 @@
 void print_diagonal(int n)
 {
 	int row, col;
-
+	
 	if (n <= 0)
 		_putchar('\n');
 	else
 	{
 		for (row = 1; row <= n; row++)
 		{
-			for (col = 1; col <= row; col++)
+			for (col = 1; col <= row-1; col++)
 				_putchar(' ');
-			_putchar(92); /*is equal to '/' in char form*/
+			_putchar(92); /*ASCII Value of "/"*/
 			_putchar('\n');
 		}
 	}
