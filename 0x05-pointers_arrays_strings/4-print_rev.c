@@ -14,7 +14,7 @@ void print_rev(char *s)
 
 	/*finds length of string without \0 at the end*/
 	for (index = 0; s[index] != '\0'; ++index)
-		index++;
+		;
 
 	/*print reverse string*/
 	for (--index; index >= 0; --index)
