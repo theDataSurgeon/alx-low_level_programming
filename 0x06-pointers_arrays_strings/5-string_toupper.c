@@ -1,21 +1,20 @@
 /**
- * string_toupper - changes from lowercase to uppercase
+ * string_toupper - converts to upper
  *
- * @s: string entered
+ * @s : pointer to input char
  *
- * Return: string to upper
- */
+ * Return: @s
+*/
+
 char *string_toupper(char *s)
 {
+	int i = 0;
 
-	int y;
-	y = 0;
-	while (*(s + y)
+	while (s[i] != '\0')
 	{
-		if (*(s + y) >= 'a' && *(s + y) <= 'z')
-			*(s + y) -= 'a' - 'A';
-		y++;
+		if (s[i] >= 97 && s[i] <= 122)
+			s[i] = s[i] - 32;
+		i++;
 	}
-
 	return (s);
 }
