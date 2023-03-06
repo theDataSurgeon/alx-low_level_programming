@@ -21,7 +21,6 @@ unsigned int _strspn(char *s, char *accept)
 		 * if successful, return 0 from f
 		 * else 1 from f
 		*/
-
 		j = 0;
 		f = 1;
 		while (accept[j] != '\0')
