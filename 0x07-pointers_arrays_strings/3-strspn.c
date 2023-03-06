@@ -1,4 +1,4 @@
-/*
+/**
  * _strspn - a function that gets the
  *           length of a prexif substring
  *
@@ -20,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 		 * check success
 		 * if successful, return 0 from f
 		 * else 1 from f
-		 * */
+		*/
 
 		j = 0;
 		f = 1;
