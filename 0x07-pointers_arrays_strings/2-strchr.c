@@ -20,10 +20,8 @@ char *_strchr(char *s, char c)
 	 * if c is '\0'or [NULL], we return
 	 * the pointer to '\0'
 	*/
-
 	if (*s == c)
 		return (s);
-
 	/*else return null if not found*/
 	return ('\0');
 }
