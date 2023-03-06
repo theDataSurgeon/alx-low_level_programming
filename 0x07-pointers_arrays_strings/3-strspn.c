@@ -15,7 +15,7 @@ unsigned int _strspn(char *s, char *accept)
 	a = 0;
 	while (s[a] != '\0')
 	{
-		/*
+		/**
 		 * j and f are flags to
 		 * check success
 		 * if successful, return 0 from f
