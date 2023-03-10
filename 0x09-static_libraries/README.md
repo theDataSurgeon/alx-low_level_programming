@@ -1,1 +1,3 @@
-This readme will be updated soon
+This READMe is on static libs
+The README will be updated to
+acceptable levels soon...
