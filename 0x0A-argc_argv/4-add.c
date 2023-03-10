@@ -1,23 +1,38 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <ctype.h>
-#include <string.h>
+#include <stdlib.h>
 
 /**
- * isNum - check if string array is num
- * @num: string to check
- * Return: 0 if it's a number
- *         1 if it's not a number
-*/
-
-int isNum(char num[])
+ * main - adds positive numbers.
+ * @argc: argument count
+ * @argv: arguments
+ *
+ * Return: 0
+ */
+int main(int argc, char **argv)
 {
-	int i, l = strlen(num);
+	int i, n, sum = 0;
+	char *flag;
 
-	for (i = 0; i < l; i++)
+	if (argc < 2)
 	{
-		if (!isdigit(num[i]))
-			return (1);
+		printf("0\n");
+		return (0);
 	}
+
+	for (i = 1; argv[i]; i++)
+	{
+		n = strtol(argv[i], &flag, 10);
+		if (*flag)
+		{
+			printf("Error\n");
+			return (1);
+		}
+		else
+		{
+			sum += n;
+		}
+	}
+	printf("%d\n", sum);
+
 	return (0);
 }
