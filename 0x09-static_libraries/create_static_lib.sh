@@ -6,3 +6,4 @@
 gcc -c -Wall -Werror -Wextra *.c
 ar -rc libmy.a *.o
 ar -rcs libname.a *.o
+echo y | rm -I *.o
