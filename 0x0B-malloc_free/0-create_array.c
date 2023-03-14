@@ -1,7 +1,9 @@
 #include <stdlib.h>
+#include "main.h"
 
 /**
- * create_array - creates an array of chars and initializes
+ * create_array - creates an array of 
+ *                chars and initializes
  *                it with a specific char.
  *
  * @size: array size
@@ -16,7 +18,10 @@ char *create_array(unsigned int size, char c)
 	char *a;
 
 	if (size == 0)
-		return (NULL); /*NULL in parenthesis since return is a  function*/
+		return (NULL);
+	
+	/*NULL in parenthesis*/
+	/*since return is a  function*/
 
 	/**
 	 * structure of malloc
